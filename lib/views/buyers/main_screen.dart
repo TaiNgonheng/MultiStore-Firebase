@@ -12,21 +12,19 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body: Center(child: Text("MainScreen"),),
+    return Scaffold(
+      body: Center(child: Text('Main Screen'),),
       bottomNavigationBar: BottomNavigationBar(
-          unselectedItemColor: Colors.black38,
-          selectedItemColor: Colors.yellow.shade900,
-          items:[
-        BottomNavigationBarItem(icon: Icon(CupertinoIcons.home),label: 'HOME'),
-        BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/cart.svg',width: 20,),label: 'CATEGORIES'),
-        BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/account.svg',width: 20,),label:'ACCOUNT'),
-        BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/favorite.svg',width: 20,),label: 'FAVORITE'),
-        BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/shop.svg',width: 20,),label: 'STORE'),
-        BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/explore.svg'),label: 'SEARCH')
-      ]),
+        unselectedItemColor: Colors.black12,
+        selectedItemColor: Colors.orange,
+        items: [
+          BottomNavigationBarItem(icon: Icon(CupertinoIcons.home),label: 'HOME'),
+          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/account.svg',width: 20,),label: 'ACCOUNT'),
+          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/favorite.svg',width: 20,),label: 'FAVORITE'),
+          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/shop.svg',width: 20),label: 'STORE'),
+          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/search.svg',width: 20),label:'SEARCH')
+        ],
+      ),
     );
   }
 }
-
-
