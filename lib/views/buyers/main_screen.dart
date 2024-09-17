@@ -18,6 +18,7 @@ class _MainScreenState extends State<MainScreen> {
         unselectedItemColor: Colors.black12,
         selectedItemColor: Colors.blue,
         items: [
+
           BottomNavigationBarItem(icon: Icon(CupertinoIcons.home),label: 'HOME'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/account.svg',width: 20,),label: 'ACCOUNT'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/cart.svg',width: 20,),label: 'CART'),
