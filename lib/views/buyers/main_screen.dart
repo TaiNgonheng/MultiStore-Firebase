@@ -28,10 +28,12 @@ class _MainScreenState extends State<MainScreen> {
         selectedItemColor: Colors.blue,
         items: [
           BottomNavigationBarItem(icon: Icon(CupertinoIcons.home),label: 'HOME'),
-          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/account.svg',width: 20,),label: 'ACCOUNT'),
+          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/explore.svg',width: 20,),label: 'CATEGORY'),
+          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/shop.svg',width: 20,),label: 'STORE'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/cart.svg',width: 20,),label: 'CART'),
-          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/favorite.svg',width: 20,),label: 'FAVORITE'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/search.svg',width: 20,),label: 'SEARCH'),
+          BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/account.svg',width: 20,),label: 'ACCOUNT'),
+
         ],
       ),
     );
