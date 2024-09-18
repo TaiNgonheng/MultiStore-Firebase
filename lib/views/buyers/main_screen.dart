@@ -10,11 +10,19 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
+  int _pageIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(child: Text('Main Screen')),
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _pageIndex,
+        onTap: (value){
+          setState(() {
+            _pageIndex = value;
+          });
+        },
         unselectedItemColor: Colors.black12,
         selectedItemColor: Colors.blue,
         items: [
