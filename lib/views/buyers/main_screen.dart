@@ -17,6 +17,7 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       body: Center(child: Text('Main Screen')),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         currentIndex: _pageIndex,
         onTap: (value){
           setState(() {
