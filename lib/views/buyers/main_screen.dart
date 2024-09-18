@@ -1,6 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:heng_multi_store/views/buyers/Nav_screens/account_screen.dart';
+import 'package:heng_multi_store/views/buyers/Nav_screens/cart_screen.dart';
+import 'package:heng_multi_store/views/buyers/Nav_screens/category_screen.dart';
+import 'package:heng_multi_store/views/buyers/Nav_screens/home_screen.dart';
+import 'package:heng_multi_store/views/buyers/Nav_screens/search_screen.dart';
+import 'package:heng_multi_store/views/buyers/Nav_screens/store_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -11,11 +17,18 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int _pageIndex = 0;
+  List<Widget> _pages = [
+    HomeScreen(),
+    CategoryScreen(),
+    StoreScreen(),
+    CartScreen(),
+    SearchScreen(),
+    AccountScreen(),
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text('Main Screen')),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         currentIndex: _pageIndex,
@@ -33,9 +46,9 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/cart.svg',width: 20,),label: 'CART'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/search.svg',width: 20,),label: 'SEARCH'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/account.svg',width: 20,),label: 'ACCOUNT'),
-
         ],
       ),
+      body: _pages[_pageIndex],
     );
   }
 }
