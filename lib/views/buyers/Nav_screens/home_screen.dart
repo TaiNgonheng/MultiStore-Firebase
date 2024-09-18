@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text('Homiee, What are you\n looking for?👀',
+              Text('Homiee, What are you\nlooking for?👀',
                 style: TextStyle(
                     fontSize: 19,
                     fontWeight: FontWeight.bold
@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
               )
             ],
           ),
-
+          SizedBox(height: 10,),
           ClipRRect(
             borderRadius: BorderRadius.circular(10),
             child: TextField(
@@ -37,6 +37,10 @@ class HomeScreen extends StatelessWidget {
                 border: OutlineInputBorder(
                   borderSide:BorderSide.none
                 ),
+                prefixIcon: Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: SvgPicture.asset('assets/icons/search.svg',width: 10,),
+                )
               ),
             ),
           ),
