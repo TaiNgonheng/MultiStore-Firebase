@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "69563377550",
+    "project_id": "store-4ce87",
+    "storage_bucket": "store-4ce87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69563377550:android:5bb4f3f0dc240dead566df",
+        "android_client_info": {
+          "package_name": "com.TaiNgonheng.heng_multi_store"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYDuHL7r9uUu-fTukvETtF49PcelGjLn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
