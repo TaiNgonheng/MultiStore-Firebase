@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "69563377550",
-    "project_id": "store-4ce87",
-    "storage_bucket": "store-4ce87.appspot.com"
+    "project_number": "309441865388",
+    "project_id": "flutter-1-multi",
+    "storage_bucket": "flutter-1-multi.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:69563377550:android:5bb4f3f0dc240dead566df",
+        "mobilesdk_app_id": "1:309441865388:android:5a02982f55ff847b55a109",
         "android_client_info": {
-          "package_name": "com.TaiNgonheng.heng_multi_store"
+          "package_name": "com.TaiNgonheng.store"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCYDuHL7r9uUu-fTukvETtF49PcelGjLn4"
+          "current_key": "AIzaSyBc8yFe2-T5NhEtL77WolblRrJd9g5dV1I"
         }
       ],
       "services": {
