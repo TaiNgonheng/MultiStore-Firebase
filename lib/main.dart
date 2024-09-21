@@ -25,6 +25,7 @@ void main() async {
         await Firebase.initializeApp();
       }
     }
+
   } catch (e) {
     print("Error initializing Firebase: $e");
   }
