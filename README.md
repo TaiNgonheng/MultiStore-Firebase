@@ -1,4 +1,4 @@
-# heng_multi_store
+# com.TaiNgonheng.store
 
 A new Flutter project.
 
