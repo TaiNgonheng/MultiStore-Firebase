@@ -17,7 +17,6 @@ class HomeScreen extends StatelessWidget {
           WelcomeText(),
           SizedBox(height: 10,),    
           SearchInputWidget(),
-
           BannerWidget(),
         ],
       ),
