@@ -11,8 +11,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsets.only(
-          top: MediaQuery.of(context).padding.top, left: 25, right: 15),
+          top: MediaQuery.of(context).padding.bottom, left: 25, right: 15),
       child: Column(
+
         children: [
           WelcomeText(),
           SizedBox(height: 10,),    
