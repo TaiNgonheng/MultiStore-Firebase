@@ -20,6 +20,7 @@ class HomeScreen extends StatelessWidget {
           SearchInputWidget(),
           BannerWidget(),
         ],
+
       ),
     );
   }
