@@ -15,10 +15,10 @@ class HomeScreen extends StatelessWidget {
       child: Column(
         children: [
           WelcomeText(),
+
           SizedBox(height: 10,),    
           SearchInputWidget(),
           BannerWidget(),
-
         ],
       ),
     );
