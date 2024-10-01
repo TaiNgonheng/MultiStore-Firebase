@@ -2,7 +2,7 @@
   "project_info": {
     "project_number": "309441865388",
     "project_id": "flutter-1-multi",
-    "storage_bucket": "flutter-1-multi.appspot.com",
+    "storage_bucket": "flutter-1-multi.appspot.com"
 
   },
   "client": [
@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:309441865388:android:5a02982f55ff847b55a109",
         "android_client_info": {
-          "package_name": "com.TaiNgonheng.store",
+          "package_name": "com.TaiNgonheng.store"
 
         }
       },
