@@ -2,7 +2,8 @@
   "project_info": {
     "project_number": "309441865388",
     "project_id": "flutter-1-multi",
-    "storage_bucket": "flutter-1-multi.appspot.com"
+    "storage_bucket": "flutter-1-multi.appspot.com",
+
   },
   "client": [
     {
