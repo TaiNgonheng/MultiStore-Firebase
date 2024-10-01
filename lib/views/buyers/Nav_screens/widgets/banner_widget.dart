@@ -19,6 +19,7 @@ class BannerWidget extends StatelessWidget {
         ),
         child: PageView(
           children: [
+
             Center(child: Text("Banner 1")),
             Center(child: Text("Banner 2")),
             Center(child: Text("Banner 3")),
