@@ -10,7 +10,8 @@
       "client_info": {
         "mobilesdk_app_id": "1:309441865388:android:5a02982f55ff847b55a109",
         "android_client_info": {
-          "package_name": "com.TaiNgonheng.store"
+          "package_name": "com.TaiNgonheng.store",
+
         }
       },
       "oauth_client": [],
