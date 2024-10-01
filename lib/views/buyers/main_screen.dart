@@ -46,6 +46,7 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/cart.svg',width: 20,),label: 'CART'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/search.svg',width: 20,),label: 'SEARCH'),
           BottomNavigationBarItem(icon: SvgPicture.asset('assets/icons/account.svg',width: 20,),label: 'ACCOUNT'),
+
         ],
       ),
       body: _pages[_pageIndex],
