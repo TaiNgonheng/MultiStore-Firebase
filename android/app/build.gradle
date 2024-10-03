@@ -25,7 +25,7 @@ android {
 
     defaultConfig {
 
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        // TODO:  (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.TaiNgonheng.store"
 
         // For more  https://flutter.dev/to/review-gradle-config.
