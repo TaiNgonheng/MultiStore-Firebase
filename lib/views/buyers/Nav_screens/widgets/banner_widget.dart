@@ -15,7 +15,6 @@ class BannerWidget extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.blue,
           borderRadius: BorderRadius.circular(10)
-
         ),
         child: PageView(
           children: [
